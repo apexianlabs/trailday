@@ -8,7 +8,7 @@ export function middleware(request) {
     return NextResponse.next()
   }
 
-  if (hostname === 'app.trailday.io') {
+  if (hostname === 'app.trailday.app') {
     if (pathname === '/') {
       const token = request.cookies.get('tra_token')?.value
       if (token) {
@@ -20,11 +20,11 @@ export function middleware(request) {
     return NextResponse.next()
   }
 
-  if (hostname === 'trailday.io' || hostname === 'www.trailday.io') {
+  if (hostname === 'trailday.app' || hostname === 'www.trailday.app') {
     if (pathname.startsWith('/dashboard') || pathname.startsWith('/billing') ||
         pathname.startsWith('/generate') || pathname.startsWith('/login') ||
         pathname.startsWith('/signup')) {
-      return NextResponse.redirect(new URL('https://app.trailday.io' + pathname, request.url))
+      return NextResponse.redirect(new URL('https://app.trailday.app' + pathname, request.url))
     }
   }
 
