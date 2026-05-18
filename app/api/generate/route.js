@@ -8,7 +8,7 @@ const DB_API_KEY = process.env.DB_API_KEY_TRAILDAY
 export async function POST(request) {
   try {
     const body = await request.json()
-    const { userId, ...inputs } = body
+    const { userId, role, department, company_name, company_type, tools, responsibilities, manager_name } = body
 
     // Call AI API
     const aiRes = await fetch(`${AI_API_URL}/api/process`, {
