@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Trailday — AI onboarding plans for new hires',
-  description: 'AI onboarding plans for new hires',
+  title: 'Trailday — Fill in the role details and get a complete, structured onboarding plan your new hire can start on day one.',
+  description: 'Fill in the role details and get a complete, structured onboarding plan your new hire can start on day one.',
 }
 export default function RootLayout({ children }) {
   return (

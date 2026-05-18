@@ -72,7 +72,7 @@ export default function DashboardPage() {
           <div style={{width:28,height:28,borderRadius:7,background:'#16a34a',display:'flex',alignItems:'center',justifyContent:'center',fontSize:13,fontWeight:800,color:'#fff',flexShrink:0}}>T</div>
           <div>
             <p style={{fontSize:13,fontWeight:800,color:'#fff',lineHeight:1,letterSpacing:'-0.3px'}}>Trailday</p>
-            <p style={{fontSize:10,color:'#475569',lineHeight:1,marginTop:2}}>AI onboarding plans for</p>
+            <p style={{fontSize:10,color:'#475569',lineHeight:1,marginTop:2}}>Fill in the role</p>
           </div>
         </Link>
       </div>
@@ -230,7 +230,7 @@ export default function DashboardPage() {
               {/* Quick action */}
               <div style={{background:'linear-gradient(135deg,#16a34a 0%,#16a34acc 100%)',borderRadius:14,padding:20,color:'#fff'}}>
                 <p style={{fontSize:13,fontWeight:700,marginBottom:4,letterSpacing:'-0.2px'}}>Ready to generate?</p>
-                <p style={{fontSize:12,color:'rgba(255,255,255,0.75)',marginBottom:14,lineHeight:1.5}}>AI onboarding plans for new hires</p>
+                <p style={{fontSize:12,color:'rgba(255,255,255,0.75)',marginBottom:14,lineHeight:1.5}}>Fill in the role details and get a complete, structured onboarding plan your new hire can start on day one.</p>
                 <Link href="/generate" style={{display:'block',textAlign:'center',background:'rgba(255,255,255,0.2)',color:'#fff',textDecoration:'none',borderRadius:8,padding:'9px',fontSize:12,fontWeight:700,border:'1px solid rgba(255,255,255,0.25)',backdropFilter:'blur(4px)'}}>
                   + New Plan →
                 </Link>
