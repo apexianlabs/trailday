@@ -1,4 +1,5 @@
 export const metadata = {
+  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   title: 'Trailday — Fill in the role details and get a complete, structured onboarding plan your new hire can start on day one.',
   description: 'Fill in the role details and get a complete, structured onboarding plan your new hire can start on day one.',
 }
